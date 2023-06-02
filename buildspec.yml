@@ -6,4 +6,5 @@ phases:
       java: corretto8
   build:
     commands:
+      - cd targeted-marketing-java
       - mvn --batch-mode --update-snapshots package
