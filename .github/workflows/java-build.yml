@@ -1,6 +1,6 @@
 name: Java CI
 
-on: [push]
+on: workflow_dispatch
 defaults:
   run:
     working-directory: targeted-marketing-java
