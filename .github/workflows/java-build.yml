@@ -1,7 +1,9 @@
 name: Java CI
 
 on: [push]
-
+defaults:
+  run:
+    working-directory: targeted-marketing-java
 jobs:
   build:
     runs-on: ubuntu-latest
