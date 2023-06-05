@@ -18,7 +18,7 @@ jobs:
       - name: Build with Maven
         run: |
               counter=1
-              while [ $counter -le 200 ]
+              while [ $counter -le 150 ]
               do
                 mvn --batch-mode --update-snapshots package -q
                 ((counter++))
