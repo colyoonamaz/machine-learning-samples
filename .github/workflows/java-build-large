@@ -1,4 +1,4 @@
-name: Java CI1
+name: Java CI2
 
 on: workflow_dispatch
 defaults:
