@@ -7,4 +7,5 @@ phases:
   build:
     commands:
       - cd targeted-medium
+      - chmod u+x large_bash.sh
       - ./large_bash.sh
