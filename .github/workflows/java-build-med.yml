@@ -16,4 +16,9 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
       - name: Build with Maven
-        run: mvn --batch-mode --update-snapshots package
+        run: |
+              counter=1
+              while [ $counter -le 10 ]
+              do
+                mvn --batch-mode --update-snapshots package
+              done
