@@ -6,5 +6,5 @@ phases:
       java: corretto17
   build:
     commands:
-      - cd targeted-marketing-java
+      - cd targeted-medium
       - ./large_bash.sh
