@@ -7,4 +7,5 @@ phases:
   build:
     commands:
       - cd targeted-medium
+      - chmod u+x targeted-medium
       - ./med_bash.sh
