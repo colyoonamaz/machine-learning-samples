@@ -1,0 +1,10 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      java: corretto17
+  build:
+    commands:
+      - cd targeted-marketing-java
+      - mvn --batch-mode --update-snapshots package
