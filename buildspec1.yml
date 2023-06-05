@@ -7,4 +7,10 @@ phases:
   build:
     commands:
       - cd targeted-marketing-java
-      - mvn --batch-mode --update-snapshots package
+      - |
+        counter=1
+        while [ $counter -le 60 ]
+        do
+          mvn --batch-mode --update-snapshots package -q
+          ((counter++))
+        done
