@@ -43,21 +43,25 @@
                 <version>1.2.1</version>
                 <executions>
                     <execution>
+                        <id>1</id>
                         <goals>
                             <goal>java</goal>
                         </goals>
                     </execution>
                     <execution>
+                        <id>2</id>
                         <goals>
                             <goal>java</goal>
                         </goals>
                     </execution>
                     <execution>
+                        <id>3</id>
                         <goals>
                             <goal>java</goal>
                         </goals>
                     </execution>
                     <execution>
+                        <id>4</id>
                         <goals>
                             <goal>java</goal>
                         </goals>
