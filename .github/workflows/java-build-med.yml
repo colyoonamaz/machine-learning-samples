@@ -16,4 +16,4 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
       - name: Build with Maven
-        run: mvn --batch-mode --update-snapshots package && javac src/main/java/com/amazonaws/samples/machinelearning/BuildModel.java
+        run: mvn --batch-mode --update-snapshots package
